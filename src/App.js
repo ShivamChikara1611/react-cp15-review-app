@@ -1,8 +1,7 @@
 import ReviewsCarousel from './components/ReviewsCarousel'
-
 import './App.css'
 
-const reviewsList = [
+const reviewsData = [
   {
     imgUrl: 'https://assets.ccbp.in/frontend/react-js/wade-warren-img.png',
     username: 'Wade Warren',
@@ -33,6 +32,6 @@ const reviewsList = [
   },
 ]
 
-const App = () => <ReviewsCarousel reviewsList={reviewsList} />
+const App = () => <ReviewsCarousel reviewsData={reviewsData} />
 
 export default App
